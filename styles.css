@@ -25,9 +25,21 @@ body {
 
 }
 
-.button-container {
+.inputs-container {
     background-color: rgb(56, 68, 68);
     height: 450px;
     width: 400px;
     border-radius: 30px;
 }
+
+.button-container {
+    padding: 20px;
+}
+
+.delete-keys {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*USE GRID INSTEAD OF FLEXBOX
